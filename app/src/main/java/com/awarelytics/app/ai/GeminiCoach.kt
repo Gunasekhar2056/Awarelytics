@@ -35,8 +35,6 @@ class GeminiCoach @Inject constructor(
     companion object {
         private const val TAG = "GeminiCoach"
 
-        // ⚠️ REPLACE with your actual Gemini API key
-        private const val GEMINI_API_KEY = "AIzaSyB9DVondstTrPNmI593hEj8f0F1kaFe-Pc"
         private const val GEMINI_API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
     }
@@ -142,7 +140,7 @@ class GeminiCoach @Inject constructor(
         )
 
         val request = Request.Builder()
-            .url("$GEMINI_API_URL?key=$GEMINI_API_KEY")
+            .url("$GEMINI_API_URL?key=${com.awarelytics.app.BuildConfig.GEMINI_API_KEY}")
             .post(requestBody.toRequestBody("application/json".toMediaType()))
             .build()
 

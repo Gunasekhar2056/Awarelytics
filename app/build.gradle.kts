@@ -6,6 +6,10 @@ plugins {
     id("com.google.gms.google-services")
 }
 
+// Read local.properties
+val localProperties = java.util.Properties()
+file("../local.properties").inputStream().use { localProperties.load(it) }
+
 android {
     namespace = "com.awarelytics.app"
     compileSdk = 34
@@ -21,6 +25,10 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        // Expose API keys from local.properties
+        buildConfigField("String", "GEMINI_API_KEY", "\"${localProperties.getProperty("gemini.api.key", "")}\"")
+        buildConfigField("String", "FIREBASE_API_KEY", "\"${localProperties.getProperty("firebase.api.key", "")}\"")
     }
 
     buildTypes {

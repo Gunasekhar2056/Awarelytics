@@ -1,0 +1,11 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+
+# Location of the Android SDK (auto-detected by Android Studio)
+sdk.dir=YOUR_ANDROID_SDK_PATH
+
+# Gemini API Key - Get yours at https://aistudio.google.com/app/apikey
+gemini.api.key=YOUR_GEMINI_API_KEY_HERE
+
+# Firebase API Key - Get yours from Firebase Console > Project Settings
+firebase.api.key=YOUR_FIREBASE_API_KEY_HERE
