@@ -1,4 +1,4 @@
-# 🧠 Awarelytics
+# Awarelytics
 
 **A context-aware digital presence coach for Android that combats phubbing using AI, BLE proximity sensing, and on-device ML.**
 
@@ -6,21 +6,21 @@ Awarelytics detects when you're ignoring people around you in favor of your phon
 
 ---
 
-## ✨ Features
+## Features
 
-- **📊 Usage Analytics** — Tracks app usage patterns via `UsageStatsManager`
-- **📡 BLE Social Context** — Detects nearby people using Bluetooth Low Energy scanning
-- **🤖 On-Device ML** — TensorFlow Lite model classifies phubbing behavior in real-time
-- **💬 Gemini AI Coach** — Personalized coaching insights powered by Google's Gemini API
-- **📈 Dashboard** — Visual breakdown of your digital presence habits
-- **🔔 Smart Nudges** — Contextual notifications and haptic feedback when phubbing is detected
-- **🔐 Firebase Auth** — Email/password and Google Sign-In authentication
-- **☁️ Cloud Sync** — Firestore-based data synchronization across devices
-- **📅 Weekly Summaries** — AI-generated weekly behavior reports
+- ** Usage Analytics** — Tracks app usage patterns via `UsageStatsManager`
+- ** BLE Social Context** — Detects nearby people using Bluetooth Low Energy scanning
+- ** On-Device ML** — TensorFlow Lite model classifies phubbing behavior in real-time
+- ** Gemini AI Coach** — Personalized coaching insights powered by Google's Gemini API
+- ** Dashboard** — Visual breakdown of your digital presence habits
+- ** Smart Nudges** — Contextual notifications and haptic feedback when phubbing is detected
+- ** Firebase Auth** — Email/password and Google Sign-In authentication
+- ** Cloud Sync** — Firestore-based data synchronization across devices
+- ** Weekly Summaries** — AI-generated weekly behavior reports
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 com.awarelytics.app/
@@ -58,7 +58,7 @@ com.awarelytics.app/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, make sure you have:
 
@@ -70,7 +70,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -133,14 +133,14 @@ firebase.api.key=YOUR_FIREBASE_API_KEY
 2. Select your device from the device dropdown in Android Studio
 3. Click **Run ▶** or press `Shift + F10`
 
-> **⚠️ Important:** The app requires several runtime permissions. Grant them when prompted:
+> ** Important:** The app requires several runtime permissions. Grant them when prompted:
 > - Usage Access (redirects to system settings)
 > - Bluetooth & Location (for BLE scanning)
 > - Notifications
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Build Variants
 
@@ -160,7 +160,7 @@ Defined in `app/build.gradle.kts`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Awarelytics/
@@ -187,7 +187,7 @@ Awarelytics/
 
 ---
 
-## 🛡️ Permissions
+## Permissions
 
 The app requests the following permissions:
 
@@ -203,7 +203,7 @@ The app requests the following permissions:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/my-feature`
@@ -213,13 +213,13 @@ The app requests the following permissions:
 
 ---
 
-## 📄 License
+## License
 
 This project is built as part of **HackCrux** hackathon.
 
 ---
 
-## 👥 Team
+## Team
 
 - [Gunasekhar2056](https://github.com/Gunasekhar2056)
 - [niket-ranjan](https://github.com/niket-ranjan)
