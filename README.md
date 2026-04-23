@@ -222,3 +222,4 @@ This project is built as part of **HackCrux** hackathon.
 ## 👥 Team
 
 - [Gunasekhar2056](https://github.com/Gunasekhar2056)
+- [niket-ranjan](https://github.com/niket-ranjan)
