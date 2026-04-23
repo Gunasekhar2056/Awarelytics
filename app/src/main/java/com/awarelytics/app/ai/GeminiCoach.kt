@@ -36,7 +36,7 @@ class GeminiCoach @Inject constructor(
         private const val TAG = "GeminiCoach"
 
         // ⚠️ REPLACE with your actual Gemini API key
-        private const val GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"
+        private const val GEMINI_API_KEY = "AIzaSyB9DVondstTrPNmI593hEj8f0F1kaFe-Pc"
         private const val GEMINI_API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
     }

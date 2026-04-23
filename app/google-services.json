@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "awarelytics-placeholder",
-    "storage_bucket": "awarelytics-placeholder.appspot.com"
+    "project_number": "378057446547",
+    "project_id": "awarelytics",
+    "storage_bucket": "awarelytics.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "mobilesdk_app_id": "1:378057446547:android:f08f51afcf0d848017a966",
         "android_client_info": {
           "package_name": "com.awarelytics.app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": ""
+          "current_key": "AIzaSyAk7KorvPKx-k7as_jWgaqM7CVS9dhCEPg"
         }
       ],
       "services": {

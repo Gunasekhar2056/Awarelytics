@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awarelytics</string>
+    <string name="gcm_defaultSenderId" translatable="false">378057446547</string>
+    <string name="google_api_key" translatable="false">AIzaSyAk7KorvPKx-k7as_jWgaqM7CVS9dhCEPg</string>
+    <string name="google_app_id" translatable="false">1:378057446547:android:f08f51afcf0d848017a966</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAk7KorvPKx-k7as_jWgaqM7CVS9dhCEPg</string>
+    <string name="google_storage_bucket" translatable="false">awarelytics.firebasestorage.app</string>
+    <string name="project_id" translatable="false">awarelytics</string>
+    <style name="Theme.Awarelytics" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
